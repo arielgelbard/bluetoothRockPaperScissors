@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E8C407EA-2717-4822-AB71-260768071983</string>
+	<key>IDESourceControlProjectName</key>
+	<string>arduinoRockPaperScissors</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3B9CBC950F079A38C3439AEE6614BB959376BFF0</key>
+		<string>https://github.com/arielgelbard/bluetoothRockPaperScissors.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>arduinoRockPaperScissors.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3B9CBC950F079A38C3439AEE6614BB959376BFF0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/arielgelbard/bluetoothRockPaperScissors.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3B9CBC950F079A38C3439AEE6614BB959376BFF0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B9CBC950F079A38C3439AEE6614BB959376BFF0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bluetoothRockPaperScissors</string>
+		</dict>
+	</array>
+</dict>
+</plist>
