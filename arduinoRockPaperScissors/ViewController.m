@@ -77,6 +77,7 @@ NSTimer *timer;
 }
 
 -(void)startTimer{
+    disableUntilNextRound=false;
     _leftHand.image=[NSImage imageNamed:[NSString stringWithFormat:@"gesture-rock-left.png"]];
     _result.stringValue=@"";
     _countDownLabel.stringValue=@"3";
@@ -160,6 +161,7 @@ int i=0;
     [self checkForAnswer];
 }
 
+bool disableUntilNextRound=false;
 int j=0;
 - (void)serialPort:(ORSSerialPort *)serialPort didReceiveData:(NSData *)data {
     NSString *gotString = [NSString stringWithUTF8String:[data bytes]];
@@ -169,14 +171,17 @@ int j=0;
     playerChoice=[playerChoice stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]];
     
     if ([playerChoice isEqualToString:@"rock"] || [playerChoice isEqualToString:@"paper"] || [playerChoice isEqualToString:@"scissors"] ){
-        _rightHand.image=[NSImage imageNamed:[NSString stringWithFormat:@"gesture-%@.png",playerChoice]];
-        _handChoice.stringValue=playerChoice;
-        playerChoice=@"";
+        if(disableUntilNextRound==false){
+            _rightHand.image=[NSImage imageNamed:[NSString stringWithFormat:@"gesture-%@.png",playerChoice]];
+            _handChoice.stringValue=playerChoice;
+            playerChoice=@"";
+        }
     }
     
     else if([playerChoice isEqualToString:@"change"]){
         [self checkForAnswer];
         playerChoice=@"";
+        disableUntilNextRound=true;
     }
 }
 
@@ -394,6 +399,7 @@ int bg=0;
     playerChoice=@"";
     _result.stringValue=@"";
     _countDownLabel.stringValue=@"";
+    disableUntilNextRound=false;
     _leftHand.image=[NSImage imageNamed:[NSString stringWithFormat:@"gesture-rock-left.png"]];
     _rightHand.image=[NSImage imageNamed:[NSString stringWithFormat:@"gesture-rock.png"]];
     [_leftCheckmark1 setAlphaValue:0];
