@@ -7,6 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21B03BB81AE36105006A3E6A /* backCheckmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B03BB61AE36105006A3E6A /* backCheckmark.png */; };
+		21B03BB91AE36105006A3E6A /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B03BB71AE36105006A3E6A /* checkmark.png */; };
+		21B03BBB1AE36295006A3E6A /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B03BBA1AE36295006A3E6A /* hand.png */; };
+		21B03BBD1AE362DF006A3E6A /* hand2.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B03BBC1AE362DF006A3E6A /* hand2.png */; };
+		21B03BBF1AE3647D006A3E6A /* humans.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B03BBE1AE3647D006A3E6A /* humans.png */; };
+		21B03BC11AE3648E006A3E6A /* cpu.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B03BC01AE3648E006A3E6A /* cpu.png */; };
+		21B03BC31AE3649D006A3E6A /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B03BC21AE3649D006A3E6A /* button.png */; };
+		21B03BC51AE3693A006A3E6A /* outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B03BC41AE3693A006A3E6A /* outline.png */; };
+		21B03BC71AE36DD1006A3E6A /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B03BC61AE36DD1006A3E6A /* orange.png */; };
+		21B03BC91AE371F3006A3E6A /* popupbackground_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B03BC81AE371F3006A3E6A /* popupbackground_05.png */; };
+		21B03BCB1AE37852006A3E6A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B03BCA1AE37852006A3E6A /* QuartzCore.framework */; };
+		21C583AD1AE5C70E00120D95 /* titleBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583AC1AE5C70E00120D95 /* titleBar.png */; };
+		21C583AF1AE5C83000120D95 /* cpuTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583AE1AE5C83000120D95 /* cpuTitle.png */; };
+		21C583B11AE5C8A300120D95 /* humanTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583B01AE5C8A300120D95 /* humanTitle.png */; };
+		21C583BB1AE5D21100120D95 /* mainMenuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583BA1AE5D21100120D95 /* mainMenuButton.png */; };
+		21C583BF1AE5D2FD00120D95 /* startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583BD1AE5D2FD00120D95 /* startButton.png */; };
+		21C583C01AE5D2FD00120D95 /* startTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583BE1AE5D2FD00120D95 /* startTitle.png */; };
+		21C583CA1AE6B3C400120D95 /* countdown-lose.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583C51AE6B3C400120D95 /* countdown-lose.png */; };
+		21C583CB1AE6B3C400120D95 /* countdown-win.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583C61AE6B3C400120D95 /* countdown-win.png */; };
+		21C583CC1AE6B3C400120D95 /* countdown-paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583C71AE6B3C400120D95 /* countdown-paper.png */; };
+		21C583CD1AE6B3C400120D95 /* countdown-rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583C81AE6B3C400120D95 /* countdown-rock.png */; };
+		21C583CE1AE6B3C400120D95 /* countdown-scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583C91AE6B3C400120D95 /* countdown-scissors.png */; };
+		21C583D71AE6C5B200120D95 /* new-countdown-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583CF1AE6C5B200120D95 /* new-countdown-1.png */; };
+		21C583D81AE6C5B200120D95 /* new-countdown-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583D01AE6C5B200120D95 /* new-countdown-2.png */; };
+		21C583D91AE6C5B200120D95 /* new-countdown-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583D11AE6C5B200120D95 /* new-countdown-3.png */; };
+		21C583DA1AE6C5B200120D95 /* new-countdown-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583D21AE6C5B200120D95 /* new-countdown-4.png */; };
+		21C583DB1AE6C5B200120D95 /* new-countdown-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583D31AE6C5B200120D95 /* new-countdown-5.png */; };
+		21C583DC1AE6C5B200120D95 /* new-paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583D41AE6C5B200120D95 /* new-paper.png */; };
+		21C583DD1AE6C5B200120D95 /* new-rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583D51AE6C5B200120D95 /* new-rock.png */; };
+		21C583DE1AE6C5B200120D95 /* new-scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583D61AE6C5B200120D95 /* new-scissors.png */; };
+		21C583E01AE6C6BC00120D95 /* countdown-draw.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583DF1AE6C6BC00120D95 /* countdown-draw.png */; };
+		21C583E21AE6C96E00120D95 /* new-countdown-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583E11AE6C96E00120D95 /* new-countdown-0.png */; };
+		21C583E71AE6D42000120D95 /* bg-cpu-win-happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583E31AE6D42000120D95 /* bg-cpu-win-happy.png */; };
+		21C583E81AE6D42000120D95 /* bg-cpu-win-mad.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583E41AE6D42000120D95 /* bg-cpu-win-mad.png */; };
+		21C583E91AE6D42000120D95 /* bg-human-win-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583E51AE6D42000120D95 /* bg-human-win-down.png */; };
+		21C583EA1AE6D42000120D95 /* bg-human-win-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583E61AE6D42000120D95 /* bg-human-win-up.png */; };
+		21C583EE1AE6D56D00120D95 /* gesture-paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583EB1AE6D56D00120D95 /* gesture-paper.png */; };
+		21C583EF1AE6D56D00120D95 /* gesture-rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583EC1AE6D56D00120D95 /* gesture-rock.png */; };
+		21C583F01AE6D56D00120D95 /* gesture-scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583ED1AE6D56D00120D95 /* gesture-scissors.png */; };
+		21C583F41AE6E0DA00120D95 /* rockPaperScissorsArduino.ino in Resources */ = {isa = PBXBuildFile; fileRef = 21C583F31AE6E0DA00120D95 /* rockPaperScissorsArduino.ino */; };
+		21C583F81AE8355400120D95 /* gesture-paper-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583F51AE8355400120D95 /* gesture-paper-left.png */; };
+		21C583F91AE8355400120D95 /* gesture-scissors-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583F61AE8355400120D95 /* gesture-scissors-left.png */; };
+		21C583FA1AE8355400120D95 /* gesture-rock-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583F71AE8355400120D95 /* gesture-rock-left.png */; };
+		21C583FC1AE83F7C00120D95 /* btn-mainmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C583FB1AE83F7C00120D95 /* btn-mainmenu.png */; };
 		21FC29D31ACDE4BA002F2C61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FC29D21ACDE4BA002F2C61 /* AppDelegate.m */; };
 		21FC29D51ACDE4BA002F2C61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FC29D41ACDE4BA002F2C61 /* main.m */; };
 		21FC29D81ACDE4BA002F2C61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FC29D71ACDE4BA002F2C61 /* ViewController.m */; };
@@ -29,6 +73,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21B03BB61AE36105006A3E6A /* backCheckmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backCheckmark.png; sourceTree = "<group>"; };
+		21B03BB71AE36105006A3E6A /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		21B03BBA1AE36295006A3E6A /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		21B03BBC1AE362DF006A3E6A /* hand2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand2.png; sourceTree = "<group>"; };
+		21B03BBE1AE3647D006A3E6A /* humans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = humans.png; sourceTree = "<group>"; };
+		21B03BC01AE3648E006A3E6A /* cpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cpu.png; sourceTree = "<group>"; };
+		21B03BC21AE3649D006A3E6A /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		21B03BC41AE3693A006A3E6A /* outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outline.png; sourceTree = "<group>"; };
+		21B03BC61AE36DD1006A3E6A /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		21B03BC81AE371F3006A3E6A /* popupbackground_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupbackground_05.png; sourceTree = "<group>"; };
+		21B03BCA1AE37852006A3E6A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		21C583AC1AE5C70E00120D95 /* titleBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleBar.png; sourceTree = "<group>"; };
+		21C583AE1AE5C83000120D95 /* cpuTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cpuTitle.png; sourceTree = "<group>"; };
+		21C583B01AE5C8A300120D95 /* humanTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = humanTitle.png; sourceTree = "<group>"; };
+		21C583BA1AE5D21100120D95 /* mainMenuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainMenuButton.png; sourceTree = "<group>"; };
+		21C583BD1AE5D2FD00120D95 /* startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton.png; sourceTree = "<group>"; };
+		21C583BE1AE5D2FD00120D95 /* startTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startTitle.png; sourceTree = "<group>"; };
+		21C583C51AE6B3C400120D95 /* countdown-lose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "countdown-lose.png"; sourceTree = "<group>"; };
+		21C583C61AE6B3C400120D95 /* countdown-win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "countdown-win.png"; sourceTree = "<group>"; };
+		21C583C71AE6B3C400120D95 /* countdown-paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "countdown-paper.png"; sourceTree = "<group>"; };
+		21C583C81AE6B3C400120D95 /* countdown-rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "countdown-rock.png"; sourceTree = "<group>"; };
+		21C583C91AE6B3C400120D95 /* countdown-scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "countdown-scissors.png"; sourceTree = "<group>"; };
+		21C583CF1AE6C5B200120D95 /* new-countdown-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-countdown-1.png"; sourceTree = "<group>"; };
+		21C583D01AE6C5B200120D95 /* new-countdown-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-countdown-2.png"; sourceTree = "<group>"; };
+		21C583D11AE6C5B200120D95 /* new-countdown-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-countdown-3.png"; sourceTree = "<group>"; };
+		21C583D21AE6C5B200120D95 /* new-countdown-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-countdown-4.png"; sourceTree = "<group>"; };
+		21C583D31AE6C5B200120D95 /* new-countdown-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-countdown-5.png"; sourceTree = "<group>"; };
+		21C583D41AE6C5B200120D95 /* new-paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-paper.png"; sourceTree = "<group>"; };
+		21C583D51AE6C5B200120D95 /* new-rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-rock.png"; sourceTree = "<group>"; };
+		21C583D61AE6C5B200120D95 /* new-scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-scissors.png"; sourceTree = "<group>"; };
+		21C583DF1AE6C6BC00120D95 /* countdown-draw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "countdown-draw.png"; sourceTree = "<group>"; };
+		21C583E11AE6C96E00120D95 /* new-countdown-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-countdown-0.png"; sourceTree = "<group>"; };
+		21C583E31AE6D42000120D95 /* bg-cpu-win-happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-cpu-win-happy.png"; sourceTree = "<group>"; };
+		21C583E41AE6D42000120D95 /* bg-cpu-win-mad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-cpu-win-mad.png"; sourceTree = "<group>"; };
+		21C583E51AE6D42000120D95 /* bg-human-win-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-human-win-down.png"; sourceTree = "<group>"; };
+		21C583E61AE6D42000120D95 /* bg-human-win-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-human-win-up.png"; sourceTree = "<group>"; };
+		21C583EB1AE6D56D00120D95 /* gesture-paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture-paper.png"; sourceTree = "<group>"; };
+		21C583EC1AE6D56D00120D95 /* gesture-rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture-rock.png"; sourceTree = "<group>"; };
+		21C583ED1AE6D56D00120D95 /* gesture-scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture-scissors.png"; sourceTree = "<group>"; };
+		21C583F31AE6E0DA00120D95 /* rockPaperScissorsArduino.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rockPaperScissorsArduino.ino; sourceTree = "<group>"; };
+		21C583F51AE8355400120D95 /* gesture-paper-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture-paper-left.png"; sourceTree = "<group>"; };
+		21C583F61AE8355400120D95 /* gesture-scissors-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture-scissors-left.png"; sourceTree = "<group>"; };
+		21C583F71AE8355400120D95 /* gesture-rock-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture-rock-left.png"; sourceTree = "<group>"; };
+		21C583FB1AE83F7C00120D95 /* btn-mainmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-mainmenu.png"; sourceTree = "<group>"; };
 		21FC29CC1ACDE4BA002F2C61 /* arduinoRockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arduinoRockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FC29D01ACDE4BA002F2C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21FC29D11ACDE4BA002F2C61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B03BCB1AE37852006A3E6A /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,9 +156,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21C583BC1AE5D23900120D95 /* not needed */ = {
+			isa = PBXGroup;
+			children = (
+				21B03BC81AE371F3006A3E6A /* popupbackground_05.png */,
+				21B03BC01AE3648E006A3E6A /* cpu.png */,
+				21B03BBE1AE3647D006A3E6A /* humans.png */,
+				21B03BC41AE3693A006A3E6A /* outline.png */,
+				21B03BC61AE36DD1006A3E6A /* orange.png */,
+				21B03BC21AE3649D006A3E6A /* button.png */,
+			);
+			name = "not needed";
+			sourceTree = "<group>";
+		};
 		21FC29C31ACDE4BA002F2C61 = {
 			isa = PBXGroup;
 			children = (
+				21B03BCA1AE37852006A3E6A /* QuartzCore.framework */,
 				21FC29CE1ACDE4BA002F2C61 /* arduinoRockPaperScissors */,
 				21FC29E51ACDE4BA002F2C61 /* arduinoRockPaperScissorsTests */,
 				21FC29CD1ACDE4BA002F2C61 /* Products */,
@@ -94,6 +197,44 @@
 				21FC29D71ACDE4BA002F2C61 /* ViewController.m */,
 				21FC29D91ACDE4BA002F2C61 /* Images.xcassets */,
 				21FC29DB1ACDE4BA002F2C61 /* Main.storyboard */,
+				21C583BC1AE5D23900120D95 /* not needed */,
+				21C583BD1AE5D2FD00120D95 /* startButton.png */,
+				21C583BE1AE5D2FD00120D95 /* startTitle.png */,
+				21B03BB61AE36105006A3E6A /* backCheckmark.png */,
+				21B03BB71AE36105006A3E6A /* checkmark.png */,
+				21B03BBA1AE36295006A3E6A /* hand.png */,
+				21B03BBC1AE362DF006A3E6A /* hand2.png */,
+				21C583AC1AE5C70E00120D95 /* titleBar.png */,
+				21C583AE1AE5C83000120D95 /* cpuTitle.png */,
+				21C583B01AE5C8A300120D95 /* humanTitle.png */,
+				21C583BA1AE5D21100120D95 /* mainMenuButton.png */,
+				21C583C51AE6B3C400120D95 /* countdown-lose.png */,
+				21C583C61AE6B3C400120D95 /* countdown-win.png */,
+				21C583DF1AE6C6BC00120D95 /* countdown-draw.png */,
+				21C583C71AE6B3C400120D95 /* countdown-paper.png */,
+				21C583C81AE6B3C400120D95 /* countdown-rock.png */,
+				21C583C91AE6B3C400120D95 /* countdown-scissors.png */,
+				21C583E11AE6C96E00120D95 /* new-countdown-0.png */,
+				21C583CF1AE6C5B200120D95 /* new-countdown-1.png */,
+				21C583D01AE6C5B200120D95 /* new-countdown-2.png */,
+				21C583D11AE6C5B200120D95 /* new-countdown-3.png */,
+				21C583D21AE6C5B200120D95 /* new-countdown-4.png */,
+				21C583D31AE6C5B200120D95 /* new-countdown-5.png */,
+				21C583D41AE6C5B200120D95 /* new-paper.png */,
+				21C583D51AE6C5B200120D95 /* new-rock.png */,
+				21C583D61AE6C5B200120D95 /* new-scissors.png */,
+				21C583E31AE6D42000120D95 /* bg-cpu-win-happy.png */,
+				21C583E41AE6D42000120D95 /* bg-cpu-win-mad.png */,
+				21C583E51AE6D42000120D95 /* bg-human-win-down.png */,
+				21C583E61AE6D42000120D95 /* bg-human-win-up.png */,
+				21C583EB1AE6D56D00120D95 /* gesture-paper.png */,
+				21C583EC1AE6D56D00120D95 /* gesture-rock.png */,
+				21C583ED1AE6D56D00120D95 /* gesture-scissors.png */,
+				21C583F51AE8355400120D95 /* gesture-paper-left.png */,
+				21C583F61AE8355400120D95 /* gesture-scissors-left.png */,
+				21C583F71AE8355400120D95 /* gesture-rock-left.png */,
+				21C583FB1AE83F7C00120D95 /* btn-mainmenu.png */,
+				21C583F31AE6E0DA00120D95 /* rockPaperScissorsArduino.ino */,
 				21FC29F21ACDE4ED002F2C61 /* Source */,
 				21FC29CF1ACDE4BA002F2C61 /* Supporting Files */,
 			);
@@ -219,8 +360,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21C583CD1AE6B3C400120D95 /* countdown-rock.png in Resources */,
+				21C583C01AE5D2FD00120D95 /* startTitle.png in Resources */,
+				21C583DD1AE6C5B200120D95 /* new-rock.png in Resources */,
+				21C583EF1AE6D56D00120D95 /* gesture-rock.png in Resources */,
 				21FC29DA1ACDE4BA002F2C61 /* Images.xcassets in Resources */,
+				21B03BC71AE36DD1006A3E6A /* orange.png in Resources */,
+				21C583D71AE6C5B200120D95 /* new-countdown-1.png in Resources */,
+				21C583FC1AE83F7C00120D95 /* btn-mainmenu.png in Resources */,
+				21B03BBB1AE36295006A3E6A /* hand.png in Resources */,
+				21C583AD1AE5C70E00120D95 /* titleBar.png in Resources */,
+				21C583E01AE6C6BC00120D95 /* countdown-draw.png in Resources */,
+				21C583DE1AE6C5B200120D95 /* new-scissors.png in Resources */,
+				21C583FA1AE8355400120D95 /* gesture-rock-left.png in Resources */,
+				21B03BC11AE3648E006A3E6A /* cpu.png in Resources */,
+				21C583E71AE6D42000120D95 /* bg-cpu-win-happy.png in Resources */,
+				21C583F41AE6E0DA00120D95 /* rockPaperScissorsArduino.ino in Resources */,
+				21C583DA1AE6C5B200120D95 /* new-countdown-4.png in Resources */,
+				21B03BB91AE36105006A3E6A /* checkmark.png in Resources */,
 				21FC29DD1ACDE4BA002F2C61 /* Main.storyboard in Resources */,
+				21C583AF1AE5C83000120D95 /* cpuTitle.png in Resources */,
+				21C583BF1AE5D2FD00120D95 /* startButton.png in Resources */,
+				21C583F01AE6D56D00120D95 /* gesture-scissors.png in Resources */,
+				21C583DC1AE6C5B200120D95 /* new-paper.png in Resources */,
+				21C583CC1AE6B3C400120D95 /* countdown-paper.png in Resources */,
+				21C583E81AE6D42000120D95 /* bg-cpu-win-mad.png in Resources */,
+				21C583EA1AE6D42000120D95 /* bg-human-win-up.png in Resources */,
+				21B03BB81AE36105006A3E6A /* backCheckmark.png in Resources */,
+				21B03BBD1AE362DF006A3E6A /* hand2.png in Resources */,
+				21C583CB1AE6B3C400120D95 /* countdown-win.png in Resources */,
+				21B03BC31AE3649D006A3E6A /* button.png in Resources */,
+				21C583CE1AE6B3C400120D95 /* countdown-scissors.png in Resources */,
+				21C583DB1AE6C5B200120D95 /* new-countdown-5.png in Resources */,
+				21C583F91AE8355400120D95 /* gesture-scissors-left.png in Resources */,
+				21C583CA1AE6B3C400120D95 /* countdown-lose.png in Resources */,
+				21C583F81AE8355400120D95 /* gesture-paper-left.png in Resources */,
+				21C583B11AE5C8A300120D95 /* humanTitle.png in Resources */,
+				21B03BC91AE371F3006A3E6A /* popupbackground_05.png in Resources */,
+				21B03BC51AE3693A006A3E6A /* outline.png in Resources */,
+				21C583EE1AE6D56D00120D95 /* gesture-paper.png in Resources */,
+				21C583D91AE6C5B200120D95 /* new-countdown-3.png in Resources */,
+				21C583E21AE6C96E00120D95 /* new-countdown-0.png in Resources */,
+				21C583BB1AE5D21100120D95 /* mainMenuButton.png in Resources */,
+				21C583D81AE6C5B200120D95 /* new-countdown-2.png in Resources */,
+				21B03BBF1AE3647D006A3E6A /* humans.png in Resources */,
+				21C583E91AE6D42000120D95 /* bg-human-win-down.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +614,7 @@
 				21FC29EE1ACDE4BA002F2C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21FC29EF1ACDE4BA002F2C61 /* Build configuration list for PBXNativeTarget "arduinoRockPaperScissorsTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +623,7 @@
 				21FC29F11ACDE4BA002F2C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C1514" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6751"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7531"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -10,9 +10,9 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="arduinoRockPaperScissors" id="1Xt-HY-uBw">
+                            <menuItem title="Rock, Paper, Scissors!" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="arduinoRockPaperScissors" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Rock, Paper, Scissors!" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
                                         <menuItem title="About arduinoRockPaperScissors" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
@@ -650,10 +650,10 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Rock, Paper, Scissors!" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="contentRect" x="77" y="688" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                     </window>
                     <connections>
@@ -668,22 +668,22 @@
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                    <view key="view" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" id="m2S-Jp-Qdl">
+                        <rect key="frame" x="0.0" y="0.0" width="1369" height="755"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="scU-UM-tZx">
-                                <rect key="frame" x="179" y="144" width="122" height="19"/>
-                                <buttonCell key="cell" type="roundRect" title="start" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="qUy-Oy-TQ6">
+                            <button verticalHuggingPriority="750" fixedFrame="YES" alphaValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="scU-UM-tZx">
+                                <rect key="frame" x="0.0" y="736" width="122" height="19"/>
+                                <buttonCell key="cell" type="roundRect" title="nextRound" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="qUy-Oy-TQ6">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="turnGreen:" target="XfG-lQ-9wD" id="w9c-0Q-rpV"/>
+                                    <action selector="beginNextRound:" target="XfG-lQ-9wD" id="Obf-nP-fin"/>
                                 </connections>
                             </button>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mTU-RN-OVW">
-                                <rect key="frame" x="184" y="65" width="113" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" alphaValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="mTU-RN-OVW">
+                                <rect key="frame" x="475" y="737" width="113" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Hand Choice" id="Mdj-Oa-KCQ">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -691,56 +691,139 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V0t-8b-YD2">
-                                <rect key="frame" x="184" y="100" width="113" height="17"/>
+                                <rect key="frame" x="254" y="737" width="113" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Computer Choice" id="mLz-kG-sw4">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fP6-75-chF">
-                                <rect key="frame" x="60" y="100" width="121" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" alphaValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="fP6-75-chF">
+                                <rect key="frame" x="130" y="737" width="121" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Computer Choice: " id="aE4-Us-IB2">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CEP-w5-ooU">
-                                <rect key="frame" x="93" y="65" width="88" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" alphaValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="CEP-w5-ooU">
+                                <rect key="frame" x="384" y="737" width="88" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Hand Choice:" id="4Ed-2e-8DW">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WNV-XO-BPq">
-                                <rect key="frame" x="130" y="31" width="51" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" alphaValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="WNV-XO-BPq">
+                                <rect key="frame" x="584" y="737" width="51" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Result: " id="QzM-g9-GvR">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QcO-kI-Pj2">
-                                <rect key="frame" x="184" y="31" width="113" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Result" id="DrX-9n-T45">
-                                    <font key="font" metaFont="system"/>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M9i-Cc-GY3">
+                                <rect key="frame" x="155" y="477" width="300" height="100"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="backCheckmark" id="kUB-5q-Ibu"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LDN-p4-Lel">
+                                <rect key="frame" x="164" y="487" width="81" height="81"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="checkmark" id="ltJ-6s-fbv"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xJT-3m-AVg">
+                                <rect key="frame" x="265" y="487" width="81" height="81"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="checkmark" id="n23-0u-e7n"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gBd-zD-B36">
+                                <rect key="frame" x="367" y="487" width="81" height="81"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="checkmark" id="BI0-Ew-tAa"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uh8-TD-oc0">
+                                <rect key="frame" x="913" y="477" width="300" height="100"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="backCheckmark" id="rrG-QC-bRL"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sac-Sa-LZI">
+                                <rect key="frame" x="922" y="487" width="81" height="81"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="checkmark" id="mdw-4U-YTh"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hfM-Lp-4TJ">
+                                <rect key="frame" x="1023" y="487" width="81" height="81"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="checkmark" id="lHQ-RC-wHU"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fr4-iP-STo">
+                                <rect key="frame" x="1125" y="487" width="81" height="81"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="checkmark" id="5tG-Qv-Vxx"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0LS-GF-fDw">
+                                <rect key="frame" x="148" y="135" width="314" height="312"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="hand" id="Hc7-C0-4Gx"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cJC-N4-ZQR">
+                                <rect key="frame" x="913" y="135" width="314" height="312"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="hand2" id="ep6-5x-S7t"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ft-i7-wgk">
+                                <rect key="frame" x="445" y="636" width="499" height="93"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="titleBar" id="m6Q-fz-wyB"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vna-AG-oMa">
+                                <rect key="frame" x="5" y="20" width="600" height="106"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="cpuTitle" id="0wq-O3-NHm"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i9Z-ap-yhm">
+                                <rect key="frame" x="763" y="21" width="600" height="106"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="humanTitle" id="9lQ-Qi-vWC"/>
+                            </imageView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" alphaValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="QcO-kI-Pj2">
+                                <rect key="frame" x="492" y="363" width="404" height="111"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" id="DrX-9n-T45">
+                                    <font key="font" metaFont="system" size="93"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" alphaValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="jx1-n3-Ufz">
+                                <rect key="frame" x="603" y="341" width="163" height="119"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" id="38o-a4-cpm">
+                                    <font key="font" metaFont="system" size="100"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Emr-0Q-BDF">
+                                <rect key="frame" x="594" y="314" width="200" height="200"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="smv-XE-VkC"/>
+                            </imageView>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="computerChoice" destination="V0t-8b-YD2" id="tlf-SJ-LDz"/>
+                        <outlet property="countDownImage" destination="Emr-0Q-BDF" id="NrU-yO-J41"/>
+                        <outlet property="countDownLabel" destination="jx1-n3-Ufz" id="KLp-Jt-gWw"/>
                         <outlet property="handChoice" destination="mTU-RN-OVW" id="qfl-eH-7RL"/>
+                        <outlet property="leftCheckmark1" destination="LDN-p4-Lel" id="kRm-M1-glI"/>
+                        <outlet property="leftCheckmark2" destination="xJT-3m-AVg" id="94A-5P-3tj"/>
+                        <outlet property="leftCheckmark3" destination="gBd-zD-B36" id="eHd-Pp-cnT"/>
+                        <outlet property="leftHand" destination="0LS-GF-fDw" id="cb0-8L-ILA"/>
                         <outlet property="result" destination="QcO-kI-Pj2" id="FCI-MT-yo3"/>
+                        <outlet property="rightCheckmark1" destination="sac-Sa-LZI" id="kW9-BH-VFB"/>
+                        <outlet property="rightCheckmark2" destination="hfM-Lp-4TJ" id="u83-W9-YMa"/>
+                        <outlet property="rightCheckmark3" destination="fr4-iP-STo" id="uXy-rr-a4g"/>
+                        <outlet property="rightHand" destination="cJC-N4-ZQR" id="h57-La-0AH"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="75.5" y="896.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backCheckmark" width="300" height="100"/>
+        <image name="checkmark" width="81" height="82"/>
+        <image name="cpuTitle" width="600" height="106"/>
+        <image name="hand" width="316" height="313"/>
+        <image name="hand2" width="316" height="313"/>
+        <image name="humanTitle" width="600" height="106"/>
+        <image name="titleBar" width="499" height="93"/>
+    </resources>
 </document>

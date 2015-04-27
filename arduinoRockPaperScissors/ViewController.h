@@ -17,6 +17,18 @@
 
 @property (weak) IBOutlet NSTextField *result;
 
+@property (weak) IBOutlet NSImageView *leftHand;
+@property (weak) IBOutlet NSImageView *leftCheckmark1;
+@property (weak) IBOutlet NSImageView *leftCheckmark2;
+@property (weak) IBOutlet NSImageView *leftCheckmark3;
+
+@property (weak) IBOutlet NSImageView *rightHand;
+@property (weak) IBOutlet NSImageView *rightCheckmark1;
+@property (weak) IBOutlet NSImageView *rightCheckmark2;
+@property (weak) IBOutlet NSImageView *rightCheckmark3;
+
+@property (weak) IBOutlet NSImageView *countDownImage;
+@property (weak) IBOutlet NSTextField *countDownLabel;
 
 @end
 
