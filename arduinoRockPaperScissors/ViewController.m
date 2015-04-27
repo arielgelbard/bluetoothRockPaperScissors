@@ -174,8 +174,8 @@ int j=0;
         if(disableUntilNextRound==false){
             _rightHand.image=[NSImage imageNamed:[NSString stringWithFormat:@"gesture-%@.png",playerChoice]];
             _handChoice.stringValue=playerChoice;
-            playerChoice=@"";
         }
+        playerChoice=@"";
     }
     
     else if([playerChoice isEqualToString:@"change"]){
