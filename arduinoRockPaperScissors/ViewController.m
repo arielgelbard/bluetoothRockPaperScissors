@@ -77,6 +77,7 @@ NSTimer *timer;
 }
 
 -(void)startTimer{
+    [self sendBack:@"2"];
     disableUntilNextRound=false;
     _leftHand.image=[NSImage imageNamed:[NSString stringWithFormat:@"gesture-rock-left.png"]];
     _result.stringValue=@"";

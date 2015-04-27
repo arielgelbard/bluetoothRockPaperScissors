@@ -101,6 +101,9 @@ checkResults("draw");
 turnBlue();
 } else if (command == "0") {
 turnOff();
+} else if (command == "2") {
+BT.println(choice);
+delay(200);
 } else if (command == "check") {
 //     BT.println(choice);
 turnBlue();
